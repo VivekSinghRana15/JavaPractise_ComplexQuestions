@@ -54,8 +54,6 @@ public class Anagram {
         }
         if(counter==0){
         System.out.println("The entered strings are Anagram..");}
-
-
     }
 }
 
