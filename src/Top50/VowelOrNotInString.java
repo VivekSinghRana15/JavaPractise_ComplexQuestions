@@ -23,7 +23,7 @@ public class VowelOrNotInString {
         int a=0,e=0,i=0,o=0,u=0;
 
         for(String x:alphabetsInString){
-            if(x.matches(".*[aeiou].*")){
+            if(x.matches("[aeiou]")){
                 if(x.matches("a") && a==0){vowelsPresent.add("a"); a++;}
                 if(x.matches("e") && e==0){vowelsPresent.add("e"); e++;}
                 if(x.matches("i") && i==0){vowelsPresent.add("i"); i++;}
